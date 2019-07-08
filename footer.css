@@ -4,6 +4,8 @@ footer{
 	grid-row: 3/4;
 	background-color: black;
 	color: gray;
+	margin: 10px;
+	padding: 10px;
 }
 
 footer 
@@ -34,7 +36,27 @@ ul.icons:after {
 footer 
 ul.icons 
 li 
-i
-{
+i{
   color: white;
+}
+footer 
+.copyright 
+i{
+	display: inline;
+}
+footer 
+.copyright 
+p{
+	display: inline;
+}
+footer 
+.copyright 
+p.author-name{
+	font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: 0.15em;
+}
+footer 
+.copyright{
+	text-align: center;
 }
