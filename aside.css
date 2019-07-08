@@ -3,29 +3,39 @@ aside{
 	grid-row: 2/3;
 	display: inline-block;
 	width: 300px;
-	/*margin-left: 10px;
-	float: right;*/
-	background-color: rgba(128,112,148, 0.4);
-	border-radius: 25px;
+    background-color: black;
+    border-left: 5px solid #507d2e;
 	height: max-content;
 }
 
-.author{	
-	z-index: 5;
+.author{
+	display: inline-block;
+		color: #507d2e;
+	padding: 0px !important;
 }
-
 .author .cover-picture{
 	display: block;
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	justify-content: center;
-	border-radius: 25px;
 }
 
 .author > ul.icons li i{
     font-size: 20px;
+		color: #507d2e;
 }
 
 .author .description{
-    margin: 0px;
+	padding-left: 5px;
+	margin: 0px;
+}
+
+.author .search-blog{
+	width: max-content;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+.author .card-title{
+	padding-left: 5px;
 }
