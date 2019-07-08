@@ -1,0 +1,25 @@
+.card{
+	padding: 5px;
+}
+.card 
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.card 
+a:hover{
+	color: #004346;
+	text-decoration: underline;
+}
+
+.card 
+p.description{
+	font-style: italic;
+}
+
+.cover-picture{
+	display: block;
+	justify-content: center;
+	width: 100%;
+}

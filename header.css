@@ -15,6 +15,8 @@ header > h1{
   font-weight: lighter;
   font-size:40px;
   margin-bottom: 0px;
+  letter-spacing: 0.15em;
+  font-weight: 700;
 }
 
 .logo{
@@ -27,15 +29,20 @@ nav.navigation {
   display: block;
   margin-bottom: 10px;
 }
-nav.navigation  ul {
+nav.navigation  
+ul {
   list-style: none;
   font-size: 14px; 
   text-align: right;
 }
-nav.navigation  ul li {
+nav.navigation  
+ul 
+li {
   display: inline-block;
 }
-nav.navigation li a {
+nav.navigation 
+li 
+a {
   display: block;
   float: left;
   padding: 3px 6px;
@@ -44,7 +51,10 @@ nav.navigation li a {
   text-decoration: none;
   font-weight: bold;
 }
-nav.navigation  ul li a:hover {
+nav.navigation  
+ul 
+li 
+a:hover {
   background: #508991;
   color: #fff;
   -webkit-border-radius: 3px;
@@ -61,10 +71,13 @@ ul.icons{
   text-align: right;
   margin: 0px;
 }
-ul.icons li{
+ul.icons 
+li{
   display: inline-block;
 }
-ul.icons li i{
+ul.icons 
+li 
+i{
   display: block;
   margin: 10px;
   float: left;
@@ -72,7 +85,9 @@ ul.icons li i{
   font-size:35px;
   font-weight: bold;
 }
-ul.icons li i.fa-search{
+ul.icons 
+li 
+i.fa-search{
   color: #508991;
   margin-right: 80px;
 }
