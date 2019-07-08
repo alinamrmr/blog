@@ -3,4 +3,38 @@ footer{
 	grid-column: 1/5;
 	grid-row: 3/4;
 	background-color: black;
+	color: gray;
+}
+
+footer 
+ul.icons
+{
+list-style: none;
+  font-size: 35px; 
+  text-align: justify;
+  color: white;
+  padding: 10px;
+}
+
+footer 
+ul.icons 
+li
+{
+	display: inline-block;
+
+}
+
+footer 
+ul.icons:after {
+  content: '';
+  width: 100%; 
+  display: inline-block;
+}
+
+footer 
+ul.icons 
+li 
+i
+{
+  color: white;
 }
