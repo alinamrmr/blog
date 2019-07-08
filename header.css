@@ -1,0 +1,78 @@
+header{
+	grid-column: 1/5;
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
+  background-color: white;
+  border: 5px solid #172A3A;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+header > h1{
+  text-align: left;
+  color: #172A3A;
+  display: inline-block;
+  font-weight: lighter;
+  font-size:40px;
+  margin-bottom: 0px;
+}
+
+.logo{
+  height: 200px;
+  display: block;
+  Float: left;
+}
+
+nav.navigation {
+  display: block;
+  margin-bottom: 10px;
+}
+nav.navigation  ul {
+  list-style: none;
+  font-size: 14px; 
+  text-align: right;
+}
+nav.navigation  ul li {
+  display: inline-block;
+}
+nav.navigation li a {
+  display: block;
+  float: left;
+  padding: 3px 6px;
+  color: #508991;
+  font-size:25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav.navigation  ul li a:hover {
+  background: #508991;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 3px 6px;
+  margin: 0;
+  text-decoration: none;
+}
+
+ul.icons{
+  list-style: none;
+  font-size: 35px; 
+  text-align: right;
+  margin: 0px;
+}
+ul.icons li{
+  display: inline-block;
+}
+ul.icons li i{
+  display: block;
+  margin: 10px;
+  float: left;
+  color: black;
+  font-size:35px;
+  font-weight: bold;
+}
+ul.icons li i.fa-search{
+  color: #508991;
+  margin-right: 80px;
+}
