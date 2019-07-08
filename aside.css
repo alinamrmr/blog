@@ -20,22 +20,28 @@ aside{
 	justify-content: center;
 }
 
-.author > ul.icons li i{
+.author 
+> ul.icons 
+li 
+i{
     font-size: 20px;
 		color: #507d2e;
 }
 
-.author .description{
+.author 
+.description{
 	padding-left: 5px;
 	margin: 0px;
 }
 
-.author .search-blog{
+.author 
+.search-blog{
 	width: max-content;
 	margin: auto;
 	padding-bottom: 10px;
 }
 
-.author .card-title{
+.author 
+.card-title{
 	padding-left: 5px;
 }
