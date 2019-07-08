@@ -21,3 +21,7 @@ aside{
 	justify-content: center;
 	border-radius: 25px;
 }
+
+.author ul.icons{
+    font-size: 20px;
+}
