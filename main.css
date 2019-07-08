@@ -4,56 +4,41 @@ main{
 	display: block;
 }
 
-main .card-wrapper{
+.card 
+.info{
+	width: 100%;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+
+.card 
+.info 
+p.publish-date{
+	color: gray;
+	display: inline-block;
+	margin: 0px;
+}
+
+.card 
+.info 
+i.fa-comments{
+	color: gray;
+	display: block;
+	float: right;
+}
+
+main 
+.card-wrapper{
 	display: grid;
 	grid-template-columns: repeat(auto-fit,350px);
 	grid-gap: 25px;
 	justify-content: center;
 }
 
-.card{
-	padding: 5px;
-}
-
-main .card:hover{
+main 
+.card:hover{
 	border: 1px solid gray;
 	background: #FCF8F8;
 }
 
-.card a {
-	text-decoration: none;
-	color: black;
-}
-
-.card a:hover{
-	color: #004346;
-	text-decoration: underline;
-}
-
-.card p.description{
-	font-style: italic;
-}
-
-.card .info{
-	width: 100%;
-	display: inline-block;
-	vertical-align: bottom;
-}
-
-.card .info p.publish-date{
-	color: gray;
-	display: inline-block;
-	margin: 0px;
-}
-
-.card .info i.fa-comments{
-	color: gray;
-	display: block;
-	float: right;
-}
-
-.cover-picture{
-	display: block;
-	justify-content: center;
-	width: 100%;
-}

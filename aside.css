@@ -21,3 +21,16 @@ aside{
 	justify-content: center;
 	border-radius: 25px;
 }
+
+.author > ul.icons li i{
+    font-size: 20px;
+}
+
+.author .description{
+    margin: 0px;
+}
+
+.author .search-blog{
+	width: max-content;
+	margin: auto;
+}
